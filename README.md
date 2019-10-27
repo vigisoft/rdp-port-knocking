@@ -4,7 +4,7 @@ This program implements port knocking for access to Windows via RDP.
 ## First steps
 It is important to note that firewall settings and remote access service installation must be done in advance by a qualified professional.
 
-## Now it works
+## How it works
 The application will listen to 3 random ports (*which you can modify later*) and allow TS / RDP access to your Windows environment. After 30 seconds access will be blocked, not affecting the current session (*if any*).
 
 The user has 30 seconds to make the connection (using some TCP socket client - like **telnet**), in the proper sequence of ports (*1, 2 and 3*).
