@@ -1,5 +1,5 @@
 # RDP Port Knocking
-This program implements port knocking for access to Windows via RDP.
+This program implements port knocking for access to Windows via RDP / TS.
 
 ## First steps
 It is important to note that firewall settings and remote access service installation must be done in advance by a qualified professional.
