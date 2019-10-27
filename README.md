@@ -9,6 +9,9 @@ The application will listen to 3 random ports (*which you can modify later*) and
 
 The user has 30 seconds to make the connection (using some TCP socket client - like **telnet**), in the proper sequence of ports (*1, 2 and 3*).
 
+## Download
+Always check the new versions [here](https://github.com/daleffe/rdp-port-knocking/releases).
+
 ## ToDo
 - [ ] Translate
 - [x] Automatically block TS / RDP access after 30 seconds of an accepted connection
