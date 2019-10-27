@@ -71,11 +71,6 @@ type
     PortKnockD3: Word;
 
     PortKnocks: array of Word;
-    // @TODO: Traduzir?
-    // @TODO: Habilitar a troca dinâmica de porta RDP a cada conexão e avisar ao cliente, na última porta,
-    // qual a porta RDP disponível.
-    // @TODO: Ajustar o firewall de acordo com a porta RDP selecionada
-    // @TODO: Habilitar o serviço de Remote Desktop automaticamente, caso esteja desabilitado
 
     procedure SetRdpStatus(Enabled: Boolean);
     procedure SetAccessStatus(Enabled: Boolean);
