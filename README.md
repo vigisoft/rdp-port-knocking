@@ -12,6 +12,9 @@ The user has 30 seconds to make the connection (using some TCP socket client - l
 ## Download
 Always check the new versions [here](https://github.com/daleffe/rdp-port-knocking/releases).
 
+## Dev
+The application was developed using Delphi XE 7 IDE
+
 ## ToDo
 - [ ] Translate
 - [x] Automatically block TS / RDP access after 30 seconds of an accepted connection
