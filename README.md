@@ -1,6 +1,9 @@
 # RDP Port Knocking
 This program implements port knocking for access to Windows via RDP / TS.
 
+##  Warning
+Make local tests before using this software, as it was tested only on Windows 7 and Windows Server 2012. Use it your own risk, we are not responsible if you completely lose your access to the operating system.
+
 ## First steps
 It is important to note that firewall settings and remote access service installation must be done in advance by a qualified professional.
 
